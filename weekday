@@ -1,0 +1,27 @@
+day = Time.new
+
+puts "Текущее время : " + day.to_s
+
+case day.wday
+when 0
+  puts "Воскресенье"
+when 1
+  puts "Понедельник"
+when 2
+  puts "Вторник"
+when 3
+  puts "Среда"
+when 4
+  puts "Четверг"
+when 5
+  puts "Пятница"
+when 6
+  puts "Суббота"
+end
+
+
+if (day.wday == 0 || day.wday == 6)
+  puts "Сегодня выходной!"
+else
+  puts "Сегодня будний день, за работу!"
+end
