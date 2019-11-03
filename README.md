@@ -1,1 +1,1 @@
-Displays the date, time, day of the week and determines the day off today or not
+The program displays the date and determines the day off, holiday or working day
